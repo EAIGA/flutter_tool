@@ -1,0 +1,92 @@
+name: bybit_app_tools
+description: A new Flutter package.
+version: 1.2.0
+homepage: https://git.bybit.com/app_component/bybit_app_tools.git
+
+environment:
+  sdk: ">=2.14.4 <3.0.0"
+  flutter: ">=2.5.3"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+  qr_code_scanner: ^0.5.2
+  provider: ^6.0.1
+  hive: ^2.0.2
+
+  flutter_apm:
+    hosted:
+      name: flutter_apm
+      url: https://unpub.bybit.com
+    version: ^1.2.8
+
+  network_capture:
+    hosted:
+      name: network_capture
+      url: https://unpub.bybit.com
+    version: ^2.3.2
+
+  hive_monitor:
+    hosted:
+      name: hive_monitor
+      url: https://unpub.bybit.com
+    version: ^1.1.4
+
+  event_track_capture:
+    hosted:
+      name: event_track_capture
+      url: https://unpub.bybit.com
+    version: ^1.0.10
+
+  foundation:
+    hosted:
+      name: foundation
+      url: https://unpub.bybit.com
+    version: ^2.1.5
+
+  bui:
+    hosted:
+      name: bui
+      url: https://unpub.bybit.com
+    version: ^2.9.0
+
+  service_manager:
+    hosted:
+      name: service_manager
+      url: https://unpub.bybit.com
+    version: ^2.7.16
+
+  widget_inspector:
+    hosted:
+      name: widget_inspector
+      url: https://unpub.bybit.com
+    version: ^1.0.0
+
+  bybit_flutter_lifecycle:
+    hosted:
+      name: bybit_flutter_lifecycle
+      url: https://unpub.bybit.com
+    version: ^2.0.0
+
+  bybit_data:
+    hosted:
+      name: bybit_data
+      url: https://unpub.bybit.com
+    version: ^1.11.7
+
+  cts_testcase:
+    hosted:
+      name: cts_testcase
+      url: https://unpub.bybit.com
+    version: ^0.9.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+   uses-material-design: true

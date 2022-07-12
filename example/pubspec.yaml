@@ -1,0 +1,51 @@
+name: example
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  foundation:
+    hosted:
+      name: foundation
+      url: https://unpub.bybit.com
+    version: ^2.1.7
+
+  service_manager:
+    hosted:
+      name: service_manager
+      url: https://unpub.bybit.com
+    version: ^2.5.30
+
+  webview_module:
+    hosted:
+      name: webview_module
+      url: https://unpub.bybit.com
+    version: ^2.2.3
+
+  launch:
+    hosted:
+      name: launch
+      url: https://unpub.bybit.com
+    version: ^2.8.2
+
+  bybit_app_tools:
+    path: ../
+
+dependency_overrides:
+  bybit_app_tools:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
